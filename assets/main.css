@@ -1,0 +1,10 @@
+body, html {
+  background-color: #eee;
+}
+main {
+  max-width: 600px;
+  margin: auto;
+}
+ul > li > a::before {
+  content: ":: ";
+}
