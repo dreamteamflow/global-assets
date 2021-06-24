@@ -1,10 +1,11 @@
 body, html {
   background-color: #eee;
 }
-main {
-  max-width: 600px;
-  margin: auto;
-}
 ul > li > a::before {
   content: ":: ";
+}
+
+.max {
+  max-width: 600px;
+  margin: auto;
 }
